@@ -271,7 +271,7 @@ html = f'''<!DOCTYPE html>
 # ---------------------------------------------------------------------------
 # Escribir output
 # ---------------------------------------------------------------------------
-out_dir = os.path.join(SCRIPTS_DIR, "..", "dist")
+out_dir = os.path.join(SCRIPTS_DIR, "..", "docs")
 os.makedirs(out_dir, exist_ok=True)
 out_path = os.path.join(out_dir, "index.html")
 
